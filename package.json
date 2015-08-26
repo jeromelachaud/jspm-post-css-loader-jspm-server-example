@@ -1,0 +1,22 @@
+{
+  "name": "microScafold",
+  "version": "1.0.0",
+  "description": "unlta minimal scafolding module",
+  "scripts": {
+    "mms": "concurrent 'npm run build_js' 'npm run server'",
+    "build_js": "watchify app/app.js -output=app/bundle.js --verbose",
+    "server": "browser-sync start --files './app/app.css, ./app/bundle.js, ./app/index.html' --server './app' "
+  },
+  "author": "Jerome Lachaud <jerome.lachaud@gmail.com> (http://jeromelachaud.com)",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "browserify": "^11.0.1",
+    "concurrently": "^0.1.1",
+    "watchify": "^3.3.1"
+  }
+}

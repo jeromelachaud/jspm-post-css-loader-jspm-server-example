@@ -1,0 +1,8 @@
+Micro minimal scaffold including:
+- BrowserSync
+- Browserify w/Watchify
+- jQuery
+
+Git clone
+CD
+npm mms
