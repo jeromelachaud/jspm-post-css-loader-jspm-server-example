@@ -3,6 +3,7 @@ Micro minimal scaffold including:
 - Browserify w/Watchify
 - jQuery
 
-Git clone
-CD
+Usage:
+Git clone git@github.com:jeromelachaud/micro-scafold.git
+CD micro-scafold
 npm mms
