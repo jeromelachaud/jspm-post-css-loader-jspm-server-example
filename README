@@ -6,4 +6,5 @@ Micro minimal scaffold including:
 Usage:
 Git clone git@github.com:jeromelachaud/micro-scafold.git
 CD micro-scafold
+npm i
 npm mms
