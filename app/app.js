@@ -1,2 +1,1 @@
-
-alert('yeah');
+// main script file
