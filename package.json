@@ -2,6 +2,7 @@
   "name": "microScafold",
   "version": "1.0.0",
   "description": "unlta minimal scafolding module",
+  "main": "index.js",
   "scripts": {
     "start": "concurrent 'npm run build_js' 'npm run server'",
     "build_js": "watchify app/app.js -output=app/bundle.js --verbose",
