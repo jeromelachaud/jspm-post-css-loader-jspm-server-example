@@ -1,7 +1,7 @@
 {
   "name": "microScafold",
   "version": "1.0.0",
-  "description": "unlta minimal scafolding module",
+  "description": "ultra minimal scafolding module",
   "main": "index.js",
   "scripts": {
     "start": "concurrent 'npm run build_js' 'npm run server'",
