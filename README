@@ -1,7 +1,6 @@
 Micro minimal scaffold including:
 - BrowserSync
 - Browserify w/Watchify
-- jQuery
 
 Usage:
 Git clone git@github.com:jeromelachaud/micro-scafold.git
