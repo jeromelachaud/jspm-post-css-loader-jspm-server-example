@@ -10,7 +10,6 @@
   "author": "Jerome Lachaud <jerome.lachaud@gmail.com> (http://jeromelachaud.com)",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^2.1.4",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
