@@ -4,9 +4,9 @@
   "description": "ultra minimal scafolding module",
   "main": "index.js",
   "scripts": {
-    "start": "concurrent 'npm run build_js' 'npm run server'",
-    "build_js": "watchify app/app.js -output=app/bundle.js --verbose",
-    "server": "browser-sync start --files './app/app.css, ./app/bundle.js, ./app/index.html' --server './app' "
+    "start": "concurrent 'npm run serve' 'npm run build_js'",
+    "build_js": "watchify ./index.js -output=./bundle.js --verbose",
+    "serve": "live-server"
   },
   "author": "Jerome Lachaud <jerome.lachaud@gmail.com> (http://jeromelachaud.com)",
   "license": "ISC",
@@ -14,9 +14,9 @@
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.8.2",
     "browserify": "^11.0.1",
     "concurrently": "^0.1.1",
+    "live-server": "^0.9.0",
     "watchify": "^3.3.1"
   }
 }
