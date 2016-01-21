@@ -1,9 +1,8 @@
 Micro minimal scaffold including:
-- BrowserSync
-- Browserify w/Watchify
+- jspm
+- live-server
 
 Usage:
 Git clone git@github.com:jeromelachaud/micro-scafold.git
 CD micro-scafold
-npm i
-npm mms
+npm run serve
