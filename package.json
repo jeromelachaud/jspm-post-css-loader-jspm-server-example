@@ -4,9 +4,7 @@
   "description": "ultra minimal scafolding module",
   "main": "index.js",
   "scripts": {
-    "start": "concurrent 'npm run serve' 'npm run build_js'",
-    "build_js": "watchify ./index.js -output=./bundle.js --verbose",
-    "serve": "live-server"
+    "server": "jspm-server"
   },
   "author": "Jerome Lachaud <jerome.lachaud@gmail.com> (http://jeromelachaud.com)",
   "license": "ISC",
@@ -16,6 +14,7 @@
   "devDependencies": {
     "concurrently": "^0.1.1",
     "jspm": "^0.16.24",
+    "jspm-server": "^1.0.1",
     "live-server": "^0.9.0"
   },
   "jspm": {
@@ -26,7 +25,9 @@
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "core-js": "npm:core-js@^1.1.4",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.93",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
     }
   }
 }
