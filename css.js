@@ -10,3 +10,4 @@ const {fetch, bundle} = new CSSLoader([
   ], __moduleName);
 
 export {fetch, bundle};
+export let __hotReload = true;
