@@ -19,6 +19,7 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "jspm-loader-css": "npm:jspm-loader-css@1.0.1-beta1",
     "lodash-node": "npm:lodash-node@3.10.1",
+    "postcss-nested": "npm:postcss-nested@1.0.0",
     "postcss-simple-vars": "npm:postcss-simple-vars@1.2.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -116,6 +117,10 @@ System.config({
     "npm:postcss-modules-values@1.1.0": {
       "icss-replace-symbols": "npm:icss-replace-symbols@1.0.2",
       "postcss": "npm:postcss@5.0.10"
+    },
+    "npm:postcss-nested@1.0.0": {
+      "postcss": "npm:postcss@5.0.14",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:postcss-simple-vars@1.2.0": {
       "postcss": "npm:postcss@5.0.14"

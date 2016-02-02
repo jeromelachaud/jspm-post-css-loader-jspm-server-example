@@ -17,12 +17,14 @@
     "concurrently": "^0.1.1",
     "jspm": "^0.16.24",
     "jspm-server": "^1.0.1",
+    "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^1.2.0"
   },
   "jspm": {
     "dependencies": {
       "css": "npm:jspm-loader-css@^1.0.1-beta1",
       "lodash-node": "npm:lodash-node@^3.10.1",
+      "postcss-nested": "npm:postcss-nested@^1.0.0",
       "postcss-simple-vars": "npm:postcss-simple-vars@^1.2.0"
     },
     "devDependencies": {
