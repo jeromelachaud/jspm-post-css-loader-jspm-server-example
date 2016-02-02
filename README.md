@@ -1,11 +1,13 @@
-Micro minimal scaffold including:
+## jspm-post-css-loader-jspm-server-example
 - jspm
-- live-server
+- jspm server
+- postCSS
 
-Usage:
-Git clone git@github.com:jeromelachaud/micro-scafold.git
-CD micro-scafold
-npm run server
+### Install
+    npm install && jspm install
 
-To-do
-Make CSS changes trigger live reload
+### Run
+    npm run server
+
+### To-do
+    Make CSS changes trigger live reload
